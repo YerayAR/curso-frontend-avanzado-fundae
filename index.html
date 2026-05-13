@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruta de Ejercicios Frontend y Backend - FUNDAE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Merriweather:wght@700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shell site-header">
+    <div class="card hero-landing" id="inicio">
+      <div class="hero-landing-copy">
+        <p class="eyebrow">Portfolio formativo FUNDAE</p>
+        <h1>Landing de ejercicios para frontend, PHP y Java</h1>
+        <p class="hero-lead">
+          Esta portada organiza los ejercicios del certificado en una sola entrada para que sea
+          facil recorrer las practicas de maquetacion, JavaScript y backend con una estructura
+          mas clara.
+        </p>
+        <div class="hero-actions">
+          <a href="#rutas" class="btn-pill btn-primary">Ver rutas</a>
+          <a href="#frontend" class="btn-pill">Explorar frontend</a>
+        </div>
+      </div>
+
+      <div class="hero-landing-panel">
+        <p class="panel-title">Resumen del proyecto</p>
+        <div class="stats">
+          <div class="stat">
+            <strong>3</strong>
+            <span>Areas principales</span>
+          </div>
+          <div class="stat">
+            <strong>HTML/CSS/JS</strong>
+            <span>Bloque frontend</span>
+          </div>
+          <div class="stat">
+            <strong>PHP + JSP</strong>
+            <span>Practicas backend</span>
+          </div>
+        </div>
+        <ul class="summary-list">
+          <li>Portada centralizada con accesos directos.</li>
+          <li>Recorrido logico entre practicas de cliente y servidor.</li>
+          <li>Formato visual comun para presentar todo el certificado.</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <nav class="card shell nav-block" aria-label="Navegacion principal">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#rutas">Rutas</a></li>
+      <li><a href="#frontend">Frontend</a></li>
+      <li><a href="php/formulario.php">PHP</a></li>
+      <li><a href="java/imc.jsp">Java</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="shell landing-main">
+    <section id="rutas" class="card section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Mapa del contenido</p>
+        <h2>Acceso a las diferentes vistas del proyecto</h2>
+      </div>
+      <p>
+        Cada bloque representa una parte del trabajo realizado. Desde aqui puedes entrar a la
+        practica visual de frontend o ir directamente a las vistas de backend en PHP y Java.
+      </p>
+
+      <div class="route-grid">
+        <article class="route-card route-card-featured">
+          <span class="route-tag">Frontend</span>
+          <h3>Maquetacion, CSS, galerias y JavaScript</h3>
+          <p>
+            Reune los ejercicios hechos con HTML5 semantico, estilos responsive, posicionamiento,
+            galerias visuales y renderizado de datos con JavaScript vanilla.
+          </p>
+          <a href="#frontend" class="route-link">Ir a la vista frontend</a>
+        </article>
+
+        <article class="route-card">
+          <span class="route-tag">PHP</span>
+          <h3>Formulario validado en servidor</h3>
+          <p>
+            Ejercicio backend con validaciones de campos, mensajes de error y confirmacion de envio
+            usando PHP.
+          </p>
+          <a href="php/formulario.php" class="route-link">Abrir formulario PHP</a>
+        </article>
+
+        <article class="route-card">
+          <span class="route-tag">Java</span>
+          <h3>JSP con calculadora IMC y lista en sesion</h3>
+          <p>
+            Practica Java web con calculo de IMC, control de errores y una lista interactiva
+            mantenida en sesion.
+          </p>
+          <a href="java/imc.jsp" class="route-link">Abrir vista Java</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="card section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Estructura logica</p>
+        <h2>Como se organiza el itinerario</h2>
+      </div>
+
+      <div class="path-grid">
+        <article class="path-step">
+          <span>01</span>
+          <h3>Base frontend</h3>
+          <p>La portada muestra primero la capa visual y los ejercicios de cliente.</p>
+        </article>
+        <article class="path-step">
+          <span>02</span>
+          <h3>Procesado con PHP</h3>
+          <p>Despues se enlaza a la practica de formularios y validacion en servidor.</p>
+        </article>
+        <article class="path-step">
+          <span>03</span>
+          <h3>Backend Java</h3>
+          <p>La ultima ruta lleva a la vista JSP con logica de negocio y estado de sesion.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="content-layout">
+      <div class="main-stack">
+        <section id="frontend" class="card section-block">
+          <div class="section-heading">
+            <p class="eyebrow">Vista frontend</p>
+            <h2>Ejercicios de HTML, CSS y JavaScript vanilla</h2>
+          </div>
+          <p>
+            Esta area agrupa las practicas de maquetacion semantica, estilos modernos, galerias
+            interactivas y ejemplos de JavaScript para dar una vista unificada al bloque frontend.
+          </p>
+
+          <div class="hero">
+            <div class="hero-copy">
+              <p>
+                Ruta de aprendizaje orientada a proyectos: estructura semantica, estilos modernos,
+                interaccion y optimizacion para dispositivos reales.
+              </p>
+            </div>
+            <div class="hero-copy">
+              <p>
+                Metodologia practica con evaluacion continua, entregas breves y mejoras iterativas.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-row" aria-label="Bloques flexibles de aprendizaje">
+            <div class="feature">Laboratorios practicos guiados por objetivos.</div>
+            <div class="feature">Revision por pares con criterios de calidad web.</div>
+            <div class="feature">Mini proyecto final responsive multi-dispositivo.</div>
+          </div>
+        </section>
+
+        <section id="fundamentos" class="card section-block" aria-label="Fundamentos HTML y CSS">
+          <h2>Fundamentos de contenido web</h2>
+          <p>
+            Evidencia practica de encabezados, parrafos, imagenes, enlaces y listas con distintos
+            comportamientos.
+          </p>
+
+          <div class="heading-ladder">
+            <h3>Encabezado nivel h3</h3>
+            <h4>Encabezado nivel h4</h4>
+            <h5>Encabezado nivel h5</h5>
+            <h6>Encabezado nivel h6</h6>
+          </div>
+
+          <div class="text-lab">
+            <p class="text-left p-tight">Parrafo alineado a la izquierda para introducciones.</p>
+            <p class="text-center p-wide">Parrafo centrado para mensajes destacados.</p>
+            <p class="text-right p-tight">Parrafo alineado a la derecha para notas de cierre.</p>
+            <p class="text-justify p-wide">Parrafo justificado para mantener una lectura uniforme en bloques de texto mas amplios y facilitar la comprension visual del contenido.</p>
+          </div>
+
+          <div class="media-lab" aria-label="Imagenes de distintos tamanos">
+            <figure class="media-card img-small">
+              <img src="https://picsum.photos/id/1018/500/340" alt="Paisaje con lago y montanas">
+              <figcaption>Imagen pequena</figcaption>
+            </figure>
+            <figure class="media-card img-medium">
+              <img src="https://picsum.photos/id/1025/500/340" alt="Perro mirando a camara">
+              <figcaption>Imagen mediana</figcaption>
+            </figure>
+            <figure class="media-card img-large">
+              <img src="https://picsum.photos/id/1003/500/340" alt="Acantilado junto al mar">
+              <figcaption>Imagen grande</figcaption>
+            </figure>
+          </div>
+
+          <div class="links-lab">
+            <h3>Enlaces con apertura diferente</h3>
+            <p>
+              <a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">MDN (nueva pestana)</a>
+              <a href="#contacto">Ir a contacto (misma pagina)</a>
+              <a href="mailto:soporte.formacion@fundae.es">Enviar correo</a>
+              <a href="tel:+34900111222">Llamar por telefono</a>
+            </p>
+          </div>
+
+          <div class="lists-lab">
+            <h3>Listas ordenadas y no ordenadas</h3>
+            <div class="lists-grid">
+              <div>
+                <strong>Lista ordenada</strong>
+                <ol>
+                  <li>Analizar requisitos de la actividad.</li>
+                  <li>Construir estructura semantica HTML.</li>
+                  <li>Aplicar estilos responsive y validar.</li>
+                </ol>
+              </div>
+              <div>
+                <strong>Lista no ordenada</strong>
+                <ul>
+                  <li>Encabezados de varios niveles.</li>
+                  <li>Parrafos con alineaciones diferentes.</li>
+                  <li>Imagenes con tamanos variados.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="articulos" class="card section-block">
+          <h2>Articulos destacados</h2>
+
+          <article>
+            <h3>Article: Arquitectura CSS escalable</h3>
+            <p>Buenas practicas para mantener estilos organizados en proyectos colaborativos.</p>
+            <span class="tag">CSS</span>
+          </article>
+
+          <article>
+            <h3>Article: Patrones de componentes reutilizables</h3>
+            <p>Estrategias para construir interfaces consistentes con menor deuda tecnica.</p>
+            <span class="tag">UI</span>
+          </article>
+
+          <article>
+            <h3>Article: Rendimiento y optimizacion frontend</h3>
+            <p>Tecnicas para mejorar tiempos de carga y experiencia de usuario en web.</p>
+            <span class="tag">Performance</span>
+          </article>
+        </section>
+
+        <section id="galerias" class="card section-block gallery-group" aria-label="Galerias de imagenes">
+          <h2>Galerias con JavaScript y CSS3</h2>
+          <p>
+            Se incluyen dos galerias tematicas. Haz clic en cualquier imagen para abrirla en modal tipo
+            lightbox y navegar con los controles.
+          </p>
+
+          <article>
+            <h3>Galeria: Naturaleza</h3>
+            <div class="gallery-grid" data-gallery="naturaleza">
+              <button class="gallery-item" data-effect="fade" data-title="Bosque al amanecer" data-src="https://picsum.photos/id/1040/1200/800" type="button"><img src="https://picsum.photos/id/1040/500/340" alt="Bosque iluminado al amanecer"><span>Fade</span></button>
+              <button class="gallery-item" data-effect="zoom" data-title="Montana nevada" data-src="https://picsum.photos/id/1036/1200/800" type="button"><img src="https://picsum.photos/id/1036/500/340" alt="Montana nevada y cielo claro"><span>Zoom</span></button>
+              <button class="gallery-item" data-effect="slide" data-title="Rio entre arboles" data-src="https://picsum.photos/id/1015/1200/800" type="button"><img src="https://picsum.photos/id/1015/500/340" alt="Rio entre arboles verdes"><span>Slide</span></button>
+            </div>
+          </article>
+
+          <article>
+            <h3>Galeria: Ciudad</h3>
+            <div class="gallery-grid" data-gallery="ciudad">
+              <button class="gallery-item" data-effect="rotate" data-title="Arquitectura urbana" data-src="https://picsum.photos/id/1031/1200/800" type="button"><img src="https://picsum.photos/id/1031/500/340" alt="Edificios modernos en ciudad"><span>Rotate</span></button>
+              <button class="gallery-item" data-effect="fade" data-title="Calles con tranvia" data-src="https://picsum.photos/id/1066/1200/800" type="button"><img src="https://picsum.photos/id/1066/500/340" alt="Calles urbanas con tranvia"><span>Fade</span></button>
+              <button class="gallery-item" data-effect="zoom" data-title="Luces nocturnas" data-src="https://picsum.photos/id/1011/1200/800" type="button"><img src="https://picsum.photos/id/1011/500/340" alt="Luces nocturnas de ciudad"><span>Zoom</span></button>
+            </div>
+          </article>
+        </section>
+
+        <section id="posiciones" class="card section-block" aria-label="Pruebas de posicionamiento">
+          <h2>Pruebas de posicionamiento CSS</h2>
+          <p>Se aplican diferentes tecnicas de posicionamiento: relativo, absoluto, sticky y fixed.</p>
+
+          <div class="position-demo">
+            <article class="position-card">
+              <h3>Posicion relativa + absoluta</h3>
+              <div class="pos-relative">
+                <span class="badge-abs">ABS</span>
+                <p>Este contenedor usa posicion relativa y la etiqueta naranja usa posicion absoluta.</p>
+              </div>
+            </article>
+
+            <article class="position-card">
+              <h3>Posicion sticky</h3>
+              <div class="pos-sticky-wrap">
+                <p class="sticky-chip">Sticky activa al hacer scroll</p>
+                <p>Este bloque demuestra comportamiento sticky dentro de su contenedor.</p>
+              </div>
+            </article>
+
+            <article class="position-card">
+              <h3>Posicion fixed</h3>
+              <p>En la esquina inferior derecha veras un boton flotante fijo de acceso rapido.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="javascript" class="card section-block" aria-label="Fundamentos de JavaScript">
+          <h2>Practica de JavaScript</h2>
+          <p>
+            Esta seccion demuestra variables primitivas, objetos, arrays y funciones distintas para
+            mostrar informacion dinamica.
+          </p>
+
+          <div class="js-grid">
+            <article class="js-card">
+              <h3>Variables primitivas</h3>
+              <ul id="jsPrimitives"></ul>
+            </article>
+
+            <article class="js-card">
+              <h3>Objeto persona</h3>
+              <ul id="jsPersona"></ul>
+            </article>
+
+            <article class="js-card">
+              <h3>Arrays</h3>
+              <ul id="jsArrays"></ul>
+            </article>
+
+            <article class="js-card">
+              <h3>Funciones</h3>
+              <ul id="jsFunctions"></ul>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <aside id="recursos" class="aside-stack" aria-label="Barra lateral de recursos">
+        <section class="card aside-block">
+          <h2>Recursos del proyecto</h2>
+          <p>Accesos rapidos y materiales de apoyo:</p>
+          <ul>
+            <li><a href="#frontend">Bloque de ejercicios frontend</a></li>
+            <li><a href="php/formulario.php">Formulario backend en PHP</a></li>
+            <li><a href="java/imc.jsp">Vista Java con JSP</a></li>
+            <li><a href="README.md">Resumen del proyecto</a></li>
+          </ul>
+        </section>
+
+        <section class="card aside-block" aria-label="Estado del itinerario">
+          <h3>Estado del itinerario</h3>
+          <ul>
+            <li>Unidad visual: maquetacion semantica y responsive</li>
+            <li>Unidad cliente: JavaScript aplicado a la interfaz</li>
+            <li>Unidad servidor: validacion y logica en PHP y Java</li>
+          </ul>
+        </section>
+
+        <section class="card aside-block" aria-label="Objetivo de la landing">
+          <h3>Objetivo de esta portada</h3>
+          <ul>
+            <li>Dar contexto a cada ejercicio dentro del certificado</li>
+            <li>Separar claramente cliente y servidor</li>
+            <li>Facilitar la navegacion desde una pagina inicial unica</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer id="contacto" class="card">
+    <h2>Pie de pagina</h2>
+    <p>Ruta de ejercicios de frontend y backend para practicas FUNDAE.</p>
+    <p>Contacto academico: soporte.formacion@fundae.es</p>
+    <p>Edicion 2026 con acceso centralizado a HTML, JavaScript, PHP y Java.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Visor de imagenes">
+    <div class="lightbox-panel">
+      <div class="lightbox-head">
+        <p id="lightboxCaption">Imagen</p>
+        <button id="closeLightbox" class="close-btn" type="button" aria-label="Cerrar">Cerrar</button>
+      </div>
+      <div class="lightbox-body">
+        <button id="prevImage" class="nav-btn" type="button" aria-label="Imagen anterior">&#10094;</button>
+        <div class="lightbox-image-wrap">
+          <img id="lightboxImage" src="" alt="Imagen ampliada">
+        </div>
+        <button id="nextImage" class="nav-btn" type="button" aria-label="Imagen siguiente">&#10095;</button>
+      </div>
+    </div>
+  </div>
+
+  <a class="fab-fixed" href="#inicio" aria-label="Volver al inicio">Inicio</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
